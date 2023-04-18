@@ -16,6 +16,7 @@ body{
     top: 0;
     right: 0;
     text-align: right;
+    z-index: 50;
 }
 .dot {
     height: 50px;
@@ -34,3 +35,42 @@ body{
 }
 
 /* End Header */
+/* Main */
+.blocks{
+    height: 100vh;
+    position: relative;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.green-text{
+    color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.yellow-text{
+    color: yellow;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+}
+/* End Main */
