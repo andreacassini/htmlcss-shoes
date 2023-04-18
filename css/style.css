@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+/* Header */
+.row{
+    background-color: transparent;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 30px 20px;
+    padding-top: 15px;
+    padding-right: 19px;
+}
+
+.dot-text{
+    text-decoration: none;
+    color: black;
+}
+
+/* End Header */
